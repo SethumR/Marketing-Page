@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hired Solutions</title>
+    <title>Hired Solutions - AI Mock Interviews</title>
     <meta name="description" content="Hired Solutions is an AI-powered mock interview platform that helps you prepare for your next job interview." />
     
     <!-- Open Graph (For Social Media Sharing) -->
@@ -16,19 +16,34 @@
     <meta name="twitter:card" content="summary_large_image" />
     
     <!-- Favicon -->
-    <link rel="icon" href="./public/Log.png" sizes="512x512" type="image/png" />
-    
+    <link rel="icon" href="./public/Log.png" sizes="256x256" type="image/png" />
   </head>
   
   <body>
     <div id="root"></div>
 
-    <!-- Logo Display (Optional) -->
-    <img src="./public/Log.png" alt="Hired Solutions Logo" width="200" />
+    <!-- Paragraph with text that will be automatically converted to a link -->
+    <p id="autoLinkText">
+      Check out our website: hired.solutions. Or you can visit: anotherwebsite.com for more info.
+    </p>
 
-    <!-- Clickable link to your site -->
-    <p>Visit our website: <a href="https://hired.solutions" target="_blank">hired.solutions</a></p>
+    <script>
+      // JavaScript to automatically detect URLs and convert them into links
+      document.addEventListener("DOMContentLoaded", function () {
+        var textContainer = document.getElementById('autoLinkText');
+        var textContent = textContainer.innerHTML;
+        
+        // Regex to match URLs in text (simple version)
+        var urlPattern = /(https?:\/\/[^\s]+)/g;
+        var urlPattern2 = /(\b[a-zA-Z0-9.-]+(?:\.[a-zA-Z]{2,})\b)/g; // Matches "hired.solutions" style
 
-    <script type="module" src="/src/main.jsx"></script>
+        // Replace text matching URL pattern with clickable links
+        textContent = textContent.replace(urlPattern, '<a href="$1" target="_blank">$1</a>');
+        textContent = textContent.replace(urlPattern2, '<a href="https://$1" target="_blank">$1</a>');
+
+        // Set the updated content with links back into the text container
+        textContainer.innerHTML = textContent;
+      });
+    </script>
   </body>
 </html>
