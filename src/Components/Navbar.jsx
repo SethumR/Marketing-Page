@@ -116,9 +116,15 @@ const Navbar = () => {
             <Link to="/aboutus" className="text-white hover:text-purple-400 transition duration-200">
               About Us
             </Link>
-            <Link to="/upgrade" className="text-white hover:text-purple-400 transition duration-200">
+            <ScrollLink
+              to="upgrade"  
+              smooth={true}
+              duration={500}
+              offset={-110}   // Adjust scroll duration
+              className="text-white hover:text-purple-400 transition duration-200 hover:border-purple-400 cursor-pointer"
+            >
               Upgrade
-            </Link>
+            </ScrollLink>
             <ScrollLink
               to="contact"  
               smooth={true}
@@ -213,9 +219,13 @@ const Navbar = () => {
               </AnimatePresence>
             </div>
           ) : (
-            <Link to="/" className="text-white hover:text-purple-400 transition duration-200">
+            <Link
+              to="/"
+              className="text-white hover:text-purple-400 transition duration-200 border border-white/50 px-4 py-1 rounded-md"
+            >
               Sign Up
             </Link>
+
           )}
         </div>
 
@@ -305,7 +315,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  to="/signup"
+                  to="/"
                   className="text-white hover:text-purple-400 transition duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
