@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Star, Video, ChevronRight, ChevronLeft, Play, User, Quote } from "lucide-react";
+import { Star, Video, ChevronRight, ChevronLeft, User, Quote } from "lucide-react";
+import emailjs from "emailjs-com";
 
 const FeatureExplorer = () => {
   const [activeFeature, setActiveFeature] = useState("success-stories");
@@ -104,8 +105,8 @@ const FeatureExplorer = () => {
 
         <div className="flex flex-col lg:flex-row gap-8 p-6 max-w-7xl mx-auto rounded-2xl shadow-xl mb-10">
           {/* Left Panel */}
-          <div className="w-full lg:w-[390px] rounded-2xl bg-[#101827] p-6 object-cover border border-opacity-30 border-white shadow-[0_0_1px_rgba(255,255,255,0.5)]">
-            <h2 className="text-xl sm:text-lg font-bold mb-2 sm:mb-2">Explore Features</h2>
+          <div className="w-full lg:w-[390px] rounded-2xl bg-[#101827] p-6 border border-[rgba(255,255,255,.3)] shadow-[0_0_1px_rgba(255,255,255,0.5)]">
+          <h2 className="text-xl sm:text-lg font-bold mb-2 sm:mb-2">Explore Features</h2>
             <p className="text-sm sm:text-base text-gray-400 mb-4 sm:mb-8">
               Click on any feature to learn more about how it enhances your booking experience.
             </p>
@@ -324,7 +325,7 @@ const NewsletterForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!handleValidation()) return;
@@ -335,32 +336,30 @@ const NewsletterForm = () => {
 
     const formData = { email, message };
 
-    try {
-      const response = await fetch("http://0.0.0.0:8000/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+    // EmailJS configuration
+    const serviceId = "service_kdxa1gk";  // replace with your EmailJS service ID
+    const templateId = "template_cvtytjx"; // replace with your EmailJS template ID
+    const userId = "yDAkMym3VmfUNcrAC";         // replace with your EmailJS user ID
+
+    emailjs
+      .send(serviceId, templateId, formData, userId)
+      .then(
+        () => {
+          setIsSubmitting(false);
+          setIsSuccess(true);
+          setEmail("");
+          setMessage("");
+          setErrors({});
+
+          setTimeout(() => {
+            setIsSuccess(false);
+          }, 3000);
         },
-        body: JSON.stringify(formData),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to submit the form");
-      }
-
-      setIsSubmitting(false);
-      setIsSuccess(true);
-      setEmail("");
-      setMessage("");
-      setErrors({});
-
-      setTimeout(() => {
-        setIsSuccess(false);
-      }, 3000);
-    } catch (err) {
-      setIsSubmitting(false);
-      setError("There was an issue submitting your form. Please try again.");
-    }
+        (err) => {
+          setIsSubmitting(false);
+          setError("There was an issue submitting your form. Please try again.");
+        }
+      );
   };
 
   return (

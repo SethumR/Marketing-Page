@@ -739,8 +739,8 @@ export default function HomePage() {
       </div>
 
       <Upgrade/>
-     
-      <ContactPage />
+      
+      <ContactPage/>
 
       <div className="bg-[#0b0f1c] text-white text-center py-12 pt-36 pb-20">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
