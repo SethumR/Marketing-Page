@@ -154,7 +154,7 @@ function Upgrade() {
               <span className="text-sm font-medium text-gray-300">Elevate your interview skills</span>
             </div>
           </div>
-          <h2 className="text-4xl font-extrabold text-white mb-4 leading-tight">Upgrade Your Experience</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4 leading-tight">Upgrade Your Experience</h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto mb-10 ">
             Unlock exclusive features and take your interview preparation to the next level.
           </p>

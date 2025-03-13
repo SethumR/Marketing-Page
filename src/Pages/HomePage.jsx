@@ -624,13 +624,13 @@ export default function HomePage() {
           {faqData.map((item, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden bg-[#0b0f1c] shadow-cyan-500/40 shadow-sm"
+              className="rounded-lg overflow-hidden bg-[#0b0f1c] shadow-cyan-500/30 shadow-sm"
             >
               <button
                 onClick={() => toggleQuestion(index)}
                 className="w-full px-6 py-4 text-left flex justify-between items-center text-white hover:bg-[#0b0f1c]"
               >
-                <span className="text-lg">{item.question}</span>
+                <span className="text-base sm:text-lg">{item.question}</span>
                 <span className="text-2xl font-medium">
                   {openIndex === index ? "-" : "+"}
                 </span>
@@ -653,7 +653,7 @@ export default function HomePage() {
               <button className="bg-[#1c2438] hover:bg-[#2a3349] transition-colors duration-300 text-white font-medium py-2 px-8 rounded-lg mb-8 shadow-lg">
                 GETTING STARTED
               </button>
-              <h2 className="text-3xl md:text-[38px] font-bold mb-6 tracking-tight">
+              <h2 className="text-2xl md:text-[38px] font-bold mb-6 tracking-tight">
                 Master the Interview{" "}
                 <span className="relative">
                   Process
@@ -742,7 +742,7 @@ export default function HomePage() {
       
       <ContactPage/>
 
-      <div className="bg-[#0b0f1c] text-white text-center py-12 pt-36 pb-20">
+      <div className="bg-[#0b0f1c] text-white text-center py-12 pt-36 pb-20 max-w-96 sm:max-w-full mx-auto">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Take charge of your career
         </h1>
