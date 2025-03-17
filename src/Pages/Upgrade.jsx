@@ -14,8 +14,8 @@ function Upgrade() {
       annual: "Free",
       icon: Shield,
       popular: false,
-      color: "from-blue-500/10 to-blue-600/10",
-      hoverColor: "hover:from-blue-500/10 hover:to-blue-600/10",
+      color: "#101827",
+      hoverColor: "#101827",
       iconColor: "text-blue-400",
       borderColor: "border-blue-900/40",
       features: [
@@ -33,8 +33,8 @@ function Upgrade() {
       annual: "$100",
       icon: Zap,
       popular: true,
-      color: "from-blue-500/10 to-blue-600/10",
-      hoverColor: "hover:from-blue-500/10 hover:to-blue-600/10",
+      color: "#101827",
+      iconColor: "text-blue-400",
       iconColor: "text-purple-400",
       borderColor: "border-blue-900/40",
       features: [
@@ -55,8 +55,8 @@ function Upgrade() {
       annual: "$150",
       icon: Crown,
       popular: false,
-      color: "from-blue-500/10 to-blue-600/10",
-      hoverColor: "hover:from-blue-500/10 hover:to-blue-600/10",
+      color: "#101827",
+      iconColor: "text-blue-400",
       iconColor: "text-amber-400",
       borderColor: "border-blue-900/40",
       features: [
