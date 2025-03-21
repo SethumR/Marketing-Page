@@ -366,13 +366,13 @@ export default function HomePage() {
     </section>     
 
 
-      <div data-aos="fade" className="px-4 sm:px-6 lg:px-8">
+    <div data-aos="fade" className="px-4 sm:px-6 lg:px-8">
         <h1 className="text-center text-2xl sm:text-3xl md:text-[40px] font-semibold mb-6 sm:mb-8 md:mb-1">
           Try an Interactive Demo
         </h1>
-        <div style={{ position: 'relative', paddingBottom: 'calc(54.02777777777777% + 41px)', height: 0, width: '100%' }} className="mb-24">
+        <div style={{ position: 'relative', paddingBottom: 'calc(54.02777777777777% + 41px)', height: 0, width: '100%' }} className="mb-20 sm:mb-24">
           <iframe
-            src="https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+            src="https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=inline&embed_desktop=inline&show_copy_link=true"
             title="Unlock Interview Success with AI-Powered Mock Sessions"
             frameBorder="0"
             loading="lazy"
@@ -394,7 +394,6 @@ export default function HomePage() {
           />
         </div>
       </div>
-
 
       {/* Interview */}
       <div className="min-h-screen  text-white p-8 ">
