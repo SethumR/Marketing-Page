@@ -10,9 +10,9 @@
 
 ### 🎥 Interactive Demo
 
-[![Watch the Interactive Demo]()](https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true)
+<iframe width="560" height="315" src="[YOUR_VIDEO_URL](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> Click the image above to launch the embedded Arcade demo in a new tab.
+> Click the video above to watch the interactive demo.
 
 ---
 
