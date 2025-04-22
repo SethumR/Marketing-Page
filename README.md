@@ -1,12 +1,33 @@
-# React + Vite
+# 🎤 HIRED - AI Mock Interview Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Introduction
 
-Currently, two official plugins are available:
+**HIRED** is an AI-powered mock interview platform designed to help users effectively prepare for job interviews. It simulates real interview scenarios using audio and video inputs, analyzes facial expressions and body language, and provides personalized, real-time feedback. The platform also assists with grooming advice, CV and cover letter creation, and post-interview tips.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🎥 Demo Video
 
-## Expanding the ESLint configuration
+[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Replace `YOUR_VIDEO_ID_HERE` with your actual YouTube video ID.
+
+---
+
+## 🚀 Features
+
+- 🎙️ **Audio-Based Interview Simulation**  
+- 📊 **Real-Time Feedback & Analytics**  
+- 🤖 **AI Analysis of Facial Expressions & Body Language**  
+- ✨ **Grooming & Appearance Suggestions**  
+- 📄 **CV and Cover Letter Generator**  
+- 📌 **Personalized Interview Tips and Follow-Up Guidance**  
+- 🧠 **Smart Question Generator (Role-based)**  
+- 📱 **Responsive UI using React and Tailwind CSS**
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
