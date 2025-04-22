@@ -6,15 +6,13 @@
 
 🔗 **[Visit Marketing Website]([Hired Solutios](https://hired.solutions/))**
 
-<img src="<img width="1440" alt="Screenshot 2025-04-22 at 12 35 48" src="https://github.com/user-attachments/assets/c7d6801d-e27e-4a04-87ad-b37c348df325" />
-" alt="HIRED Marketing Image" style="max-width: 100%; height: auto; margin-top: 10px;">
+<img width="1440" alt="Screenshot 2025-04-22 at 12 35 48" src="https://github.com/user-attachments/assets/c7d6801d-e27e-4a04-87ad-b37c348df325" />
 
 ### 🎥 Interactive Demo
 
-[![Watch the Interactive Demo](https://i.imgur.com/YOUR_IMAGE_ID.png)](https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true)
+[![Watch the Interactive Demo]()](https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true)
 
 > Click the image above to launch the embedded Arcade demo in a new tab.
-
 
 ---
 
