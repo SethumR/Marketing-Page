@@ -4,11 +4,15 @@
 
 **HIRED** is an AI-powered mock interview platform designed to help users effectively prepare for job interviews. It simulates real interview scenarios using audio and video inputs, analyzes facial expressions and body language, and provides personalized, real-time feedback. The platform also assists with grooming advice, CV and cover letter creation, and post-interview tips.
 
-### 🎥 Demo Video
+🔗 **[Visit Marketing Website]([Hired Solutios](https://hired.solutions/))**
 
-[![Watch the Demo](https://i.imgur.com/YOUR_IMAGE_ID.png)](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link)
+![HIRED Banner](![image](https://github.com/user-attachments/assets/0ec3d9ed-6c27-4417-88d0-5b3ad1424bde))
 
-> Click the image above to view the interactive demo on Arcade.
+### 🎥 Interactive Demo
+
+[![Watch the Interactive Demo](https://i.imgur.com/YOUR_IMAGE_ID.png)](https://demo.arcade.software/7QEYz1oYuWRkkPCEQKoH?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true)
+
+> Click the image above to launch the embedded Arcade demo in a new tab.
 
 
 ---
