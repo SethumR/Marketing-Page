@@ -10,7 +10,7 @@
 
 ### 🎥 Interactive Demo
 
-[Click Here to watch ]([http://url.com](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link))
+[Click Here to watch](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link)
 
 > Click the video above to watch the interactive demo.
 
