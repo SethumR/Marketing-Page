@@ -10,7 +10,8 @@
 
 ### 🎥 Interactive Demo
 
-<iframe width="560" height="315" src="[YOUR_VIDEO_URL](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 > Click the video above to watch the interactive demo.
 
