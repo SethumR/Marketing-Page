@@ -6,7 +6,8 @@
 
 🔗 **[Visit Marketing Website]([Hired Solutios](https://hired.solutions/))**
 
-![HIRED Banner](![image](https://github.com/user-attachments/assets/0ec3d9ed-6c27-4417-88d0-5b3ad1424bde))
+![HIRED Banner](<img width="1440" alt="Screenshot 2025-04-22 at 12 35 48" src="https://github.com/user-attachments/assets/91b8f77e-13fd-4278-92e5-5e0f0fa07b29" />
+))
 
 ### 🎥 Interactive Demo
 
