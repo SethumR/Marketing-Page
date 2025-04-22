@@ -6,9 +6,10 @@
 
 ### 🎥 Demo Video
 
-[![Watch the Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link))
+[![Watch the Demo](https://i.imgur.com/YOUR_IMAGE_ID.png)](https://app.arcade.software/share/7QEYz1oYuWRkkPCEQKoH?ref=share-link)
 
-> Replace `YOUR_VIDEO_ID_HERE` with your actual YouTube video ID.
+> Click the image above to view the interactive demo on Arcade.
+
 
 ---
 
@@ -21,12 +22,6 @@
 
 - 📊 **Real-Time Feedback & Analytics**  
   Get instant feedback on your responses, tone, confidence, and timing.
-
-- 🤖 **AI Analysis of Facial Expressions & Body Language**  
-  Monitor non-verbal communication using webcam analysis.
-
-- ✨ **Grooming & Appearance Suggestions**  
-  Receive tips to enhance your physical appearance for video interviews.
 
 - 📄 **CV and Cover Letter Generator**  
   Build job-winning resumes and tailored cover letters.
